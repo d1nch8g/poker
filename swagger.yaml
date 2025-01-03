@@ -1,0 +1,25 @@
+basePath: /api
+host: localhost:8080
+info:
+  contact:
+    email: d1nch8g@gmail.com
+    name: Swap Support
+    url: http://github.com/d1nch8g/poker
+  description: Self-hosted poker.
+  license:
+    name: MIT
+    url: https://github.com/d1nch8g/poker/src/branch/main/LICENSE
+  termsOfService: http://github.com/d1nch8g/poker
+  title: Self-hosted poker app
+  version: "1.0"
+paths: {}
+schemes:
+- http
+- https
+securityDefinitions:
+  ApiKeyAuth:
+    description: Token authorization for internal operations
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
